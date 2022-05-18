@@ -1,0 +1,200 @@
+/*fichier css*/
+
+/*modif générale*/
+*{
+	margin:0%;
+	border:0%;
+	padding:0%;
+	color:white;
+	font-family:Century Gothic;
+}
+body{
+	padding:5% 10%;
+	background-image: url(../images/sans-titre.png);
+	min-width:265px;
+}
+a {
+	text-transform:UPPERCASE;
+}
+/*entête*/
+header{	
+	height:20%;
+	min-height:30px;
+	min-width:265px;
+	max-height:400px;
+}	
+#logo{
+	width: 30%;
+	height: 100%;
+	background-size: cover;
+	background-image: url(../images/folio_logo_big.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-bottom:10%;
+
+}
+#nom{
+	background: linear-gradient(#808080 , #b8b9c4);
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	font-size:100%;
+}
+/*Articles*/
+#page {
+	color:#0c0e89;
+	text-align: left;
+	background-color:#757875;
+}
+
+#sec1{
+	padding-left:20%;
+	padding-bottom:10%;
+}
+#sec1 p{
+	color:#FFFFF;
+	padding-left:2%;
+	margin-bottom:03%;
+}
+#sec1>h1{
+	text-align:center;
+	margin-bottom:10%;
+	font-family:Sans-Serif;
+	font-size: 2em;
+}
+article {
+	margin-right:5%;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 5%;
+	box-shadow: 3px 3px 3px #3B3C3B;
+	background-color:#5A5C5A;
+}
+article h1{
+	padding-left:15%;
+	padding-top:2%;
+	padding-bottom: 3%;
+	color:#9E634D;
+	font-family:Serif;
+	font-size:200%;
+	font-weight: bold;
+	margin-bottom:3%;
+	background-color: #fada94;
+	background-position:2% 55%;
+	background-size: 32px 31px;
+	background-repeat: no-repeat;
+}
+
+/*Image d'article*/
+.jv h1{
+	background-image: url(../images/jvlogo.png);
+}
+.sport h1{
+	background-image: url(../images/sport.png);
+}
+.mc h1{
+	background-image: url(../images/minecraft_logo_icon_168974.png);
+}
+.g4 h1{
+	background-image: url(../images/G4.svg);
+}	
+.ten h1{
+	background-image: url(../images/tennis.png);
+}
+.multi h1{
+	background-image: url(../images/multi.png);
+}
+.python h1{
+	background-image: url(../images/python.png);
+}
+.python{
+	background-image: url(../images/coding1.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.html h1{
+	background-image: url(../images/html.png);
+}
+.html{
+	background-image: url(../images/coding3bis.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.java h1{
+	background-image: url(../images/java.png);
+}
+.c h1{
+	background-image: url(../images/logoc.png);
+}
+.c{
+	background-image: url(../images/coding2.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.photo h1{
+	background-image: url(../images/photo.png);
+}
+.philo h1{
+	background-image: url(../images/philo.png);
+}
+.news h1{
+	background-image: url(../images/newsletter.png);
+}
+/*tableau*/
+td,th
+{
+	border:1px solid black;
+	text-align:center;
+}
+
+/*modif de la liste*/
+a:link 
+{ 
+	text-decoration:none; 
+} 
+a{
+	color:white;
+}
+ul{
+	list-style-type: none;
+}
+ul>li>ul{
+	display:none;
+}	
+#menu>ul>li:hover>ul{
+	display:block;
+}
+#menu>UL LI A:hover {
+	transition-property: color; 
+	transition-property: background-color;
+    transition-duration: 0.3s;
+	color: #d9d940; 
+	background-color: #4b4b69
+}
+/*liens*/
+.league{
+	width:50%;
+	min-height:276px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+	padding-bottom:5%;
+}
+.imgjava{
+    margin-left: auto;
+    margin-right: auto;	
+	padding-top:5%;
+	padding-bottom:5%;
+}
+img{
+	display: block;
+	height:auto;
+}	
+#messports p{
+	font-size:1em;
+	font-weight: normal;
+}
+
+

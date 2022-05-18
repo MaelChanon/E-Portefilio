@@ -1,0 +1,113 @@
+
+img{
+	max-width:240;
+}
+
+/*entete*/
+.entete{
+	margin-bottom:5%;
+}
+.bordure{
+		min-height:49px;
+}
+.nom{
+	background: linear-gradient(#808080 , #b8b9c4);
+	font-size : 1em;
+	text-align: center;
+	min-height:49px;
+	
+}
+.nom h1{
+
+	font-size:1.3em;
+	min-width:160;
+	min-height:30;
+	margin:0;
+	padding-top:3%;
+}
+.nom p{
+	font-size:40%;
+	margin:0;
+}
+.folio div{
+	padding:0;
+}
+/*modif de la navbar*/
+.dropdown-menu{
+	background-color:#444444;
+}
+.dropdown-item {
+	color:#FFFFFF;
+}
+/*contenue de la page*/
+#sec1{
+	padding-left:5%;
+}
+
+/*modification des citations*/
+figcaption{
+	background-color:#E88141;
+	opacity: 0.5;
+}
+
+blockquote p{
+	font-size:0.7em;
+	font-family:Century Gothic;
+	font-weight:normal;
+	margin-bottom: 10px;
+}
+
+/*modification du formulaire*/
+form{
+	margin:auto 10%
+}
+label
+{
+	color:#E3834F;
+	display: block;
+	width: 150px;
+	float: left;
+	clear:left; 
+	float:left;
+}
+
+fieldset {
+	padding:1%;
+	background-color:#575452;
+}
+
+input {
+	background-color:#656D71;
+	display:block; 
+	height:2em;
+	max-width:150px;
+	border-color:none;
+	box-shadow:none;
+}
+#butt{
+	background-color:#90d1cf;
+}
+input:required{
+	background-color:#F79F65;
+}
+input:focus{
+	background-color:#808080;
+	transition-property: background-color; 
+    transition-duration: 0.6s;
+}
+input:invalid {
+   box-shadow: 0 0 1px 1px #BA4949;
+   border-color:#BA4949;
+}
+
+input::placeholder{
+	color:white;
+}
+.boxx{
+	display:block;
+	padding-bottom:10px;
+}
+textarea{
+	background-color:#656D71;
+	max-width:95%;
+}

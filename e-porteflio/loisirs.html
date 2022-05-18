@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<title> Loisirs </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Mes Loisirs">
+		<meta name="author" content="Maël Chanon">
+		<link rel="icon" href="images/bedrock.ico">
+		
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+
+        <link rel="stylesheet" type="text/css" href="styleCSS/style.css" />
+		<link rel="stylesheet" type="text/css" href="styleCSS/stylel.css"
+		media="screen and (min-width:1200px)"/>
+		<link rel="stylesheet" type="text/css" href="styleCSS/styleh.css"
+		media="screen and (max-width:1200px)"/>
+    </head>
+	
+	<body ontouchstart="">
+		
+		<div id="globale">		
+			<!-- entête -->
+			<header> 
+				<div id="logo">
+				</div>
+				<div id="nom">
+					<h1> Maël Chanon</h1>
+					<p> Etudiant Informatique </p>
+				</div>
+			</header>
+			
+
+			<div style="clear:both"></div>
+			<!-- liste de navigation dans les pages = le menu-->
+			<nav>
+				<div id="menu">
+					<ul class="navbar">
+						<li><a href="accueil.html">Accueil</a>
+							<ul id="snav">
+								<li><a href="accueil.html#crea">Créations</a></li>
+								<li><a href="accueil.html#phrases">Phrases</a></li>
+								<li><a href="accueil.html#news">Newsletter</a></li>
+							</ul>
+						</li>
+						<li><a href="competences.html">Compétences</a>
+							<ul id="snav">
+								<li><a href="competences.html#py">Python/Java</a></li>
+								<li><a href="competences.html#c">C</a></li>
+								<li><a href="competences.html#htmlc">HTML/CSS</a></li>
+							</ul>
+						</li>
+						<li><a href="experiences.html">Expériences</a>
+							<ul id="snav">
+								<li><a href="experiences.html#stage">Stage</a></li>
+								<li><a href="experiences.html#mc">Minecraft</a></li>
+								<li><a href="experiences.html#tournoi">Tournoi</a></li>
+
+							</ul>
+						</li>
+						<li class="active">
+						<a href="loisirs.html">Loisirs</a>
+							<ul id="snav">
+							<li><a href="loisirs.html#jeux videos">Jeux vidéos</a></li>
+							<li><a href="loisirs.html#Mes Sports">Sports</a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</div> 
+			</nav>
+			
+			<!-- Debut des "articles"-->
+			<div id="page">	
+				<!-- introduction-->
+				<section id="sec1">
+					<h1> Voici l'endroit ou vous pouvez retrouver mes loisirs</h1>
+					
+					<!-- Article 1 avec tableau rigle, rowspan et colspan-->
+					<article class="jv">
+						<h1 id="jeux videos"> Jeux vidéos auxquels je joue </h1>
+				
+						<p> De nos jours, les jeux vidéos se démocratisent de plus en plus, et des recherches commencent à montrer les bienfaits de cette pratique de manière maitrisée voici une liste des jeux auquels je joue et ses bienfaits.	  </p>
+				
+						<div class="table">
+							<table width="100%" border="1" >
+								<tr>
+								<th ></th>
+									<th bgcolor="#eab080">Stratégie</th>
+									<th bgcolor="#eab080">Travail en équipe</th>
+									<th bgcolor="#eab080">Capacité de réaction</th>
+									<th bgcolor="#eab080">Logique</th>
+									<th bgcolor="#eab080">Créativité</th>
+								</tr>
+								<tr align="center">
+									<th bgcolor=" #47c4c6">League of Legends</th>
+									<td colspan="2"  rowspan ="2" bgcolor=" #f1f498 "></td>
+									<td colspan="3" rowspan ="2" bgcolor="#97a1a2"></td>
+								</tr> 
+								<tr align="	center">
+									<th bgcolor="#47c4c6">Overwatch</th>	
+
+								</tr> 											
+								<tr align="	center">
+									<th bgcolor="#47c4c6">Genshin Impact</th>
+									<td colspan="2" rowspan ="2" bgcolor="#97a1a2"></td>
+									<td bgcolor="97a1a2"></td>
+									<td colspan="2" rowspan="2" bgcolor="f1f498"></td></tr> 
+								</tr> 
+								<tr align="	center">	
+									<th bgcolor="#47c4c6">Minecraft</th>
+									<td	 bgcolor="f1f498"></td>
+								</tr> 
+								 
+							</table>
+						</div>	
+					</article>
+				
+					<!--Article 2 avec le module vidéo-->
+					<article class="jv">
+						<h1> Championats du monde de League Of Legends  </h1>
+						<p> Voici le teaser des championats du monde 2021 de league of legends</p>
+						<video class="league"  loop="loop"  controls="controls"> 	
+							<source   src="./videos/yt5s.com-Burn It All Down (ft. PVRIS) Worlds 2021 - League of Legends-(1080p).mp4" type="video/mp4"/> 
+						</video>
+					</article>
+					
+					<!--Article 3 avec des textes flottants -->				
+					<article class="sport">
+						<h1 id="Mes Sports"> Les sports que je pratique</h1>
+						<p class="sport"> En dehors de mes autres activités, je pratique quelques sports: </p>
+						<div id="messports">
+							<div>	
+								<p><img src="images/LicenceTennis.PNG" style="float:left" alt="Image flottante" height="60%" width="60%"/></p>
+								<p>Je pratique le tennis depuis 7ans au sein du club de Lardy/Janville-sur-Juine, j'ai participé à un bon nombre de tournois, mon classement actuel est 30/5</p>
+								<div style="clear:both"></div>
+							</div>
+								
+							<div>	
+								<p><img src="images/jecours.jpg" style="float:right" alt="Image flottante" height="60%" width="60%"/></p>
+								<p>Dans mon temps libre je vais souvent courir, cela permet d'éliminer les petits traquats du quotidien, de se maintenir en forme et d'améliorer son mental,
+								j'alterne entre courtes et longues distances, allant de 4km jusqu'à 13km!</p>
+								<div style="clear:both"></div>
+							</div>
+
+							<div>	
+								<p><img src="images/badminton.jpg" style="float:left;" alt="Image flottante" height="10%" width="20%"/></p>
+								<p>Au lycée, j'ai fait beaucoup de badminton dans le cadre de mon option sport mais aussi avec des amis, ce sport est très intéressant dans le travail du cardio mais
+								surtout de la concentration nécessaire pour le pratiquer, cela permet d'entrainer son cerveau à être dans le <a href="https://fr.wikipedia.org/wiki/Flow_(psychologie)" title="flow">flow</a></p>
+								<div style="clear:both"></div>
+							</div>						
+						</div>
+					</article>		
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+

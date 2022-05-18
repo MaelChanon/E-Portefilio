@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title> Expériences </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Mes Loisirs">
+		<meta name="author" content="Maël Chanon">
+		<link rel="icon" href="images/bedrock.ico">
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+
+        <link rel="stylesheet" type="text/css" href="styleCSS/style.css" />
+		<link rel="stylesheet" type="text/css" href="styleCSS/stylel.css"
+		media="screen and (min-width:1200px)"/>
+		<link rel="stylesheet" type="text/css" href="styleCSS/styleh.css"
+		media="screen and (max-width:1200px)"/>
+    </head>
+	
+	<body ontouchstart="">
+		<div id="globale">		
+			<!-- entête -->
+			<header> 
+				<div id="logo">
+				</div>
+				<div id="nom">
+					<h1> Maël Chanon</h1>
+					<p> Etudiant Informatique </p>
+				</div>
+			</header>
+			
+
+			<div style="clear:both"></div>
+			<!-- liste de navigation dans les pages = le menu-->
+			<nav>
+				<div id="menu">
+					<ul class="navbar">
+						<li><a href="accueil.html">Accueil</a>
+							<ul id="snav">
+								<li><a href="accueil.html#crea">Créations</a></li>
+								<li><a href="accueil.html#phrases">Phrases</a></li>
+								<li><a href="accueil.html#news">Newsletter</a></li>
+							</ul>
+						</li>
+						<li><a href="competences.html">Compétences</a>
+							<ul id="snav">
+								<li><a href="competences.html#py">Python/Java</a></li>
+								<li><a href="competences.html#c">C</a></li>
+								<li><a href="competences.html#htmlc">HTML/CSS</a></li>
+							</ul>
+						</li>
+						<li><a href="experiences.html">Expériences</a>
+							<ul id="snav">
+								<li><a href="experiences.html#stage">Stage</a></li>
+								<li><a href="experiences.html#mc">Minecraft</a></li>
+								<li><a href="experiences.html#tournoi">Tournoi</a></li>
+
+							</ul>
+						</li>
+						<li class="active">
+						<a href="loisirs.html">Loisirs</a>
+							<ul id="snav">
+							<li><a href="loisirs.html#jeux videos">Jeux vidéos</a></li>
+							<li><a href="loisirs.html#Mes Sports">Sports</a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</div> 
+			</nav>
+			<!-- Debut des "articles"-->
+			<div id="page">
+				<section id="sec1">
+					<h1 > Mes Expériences:</h1>
+						<!--article avec utilisation de l'api de google map-->
+						<article class="g4">
+							<h1 id="stage">Mon Stage de 3eme</h1>
+							<p>J'ai effectué mon stage dans l'entreprise <a href="https://www.g4.fr/fr/" src="lien cliquable">G4</a> qui propose des services informatiques destinés aux entrprises</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10556.570943790555!2d2.2520108!3d48.5879658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6714d158c985541!2sG4!5e0!3m2!1sfr!2sfr!4v1634552367797!5m2!1sfr!2sfr" width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						</article> 
+						<!--article avec utilisation de la balise <img>-->				
+						<article class="mc">
+							<h1 id="mc" >Mon pluggin minecraft</h1>
+							<p>cet été, afin de m'exercer j'ai commencé à développer des pluggins sur minecraft</h1>
+							<img class="imgjava" src="images/javamc.png" href="..." height="55%" width="70%" ></img>
+						</article>
+						<!--article avec utilisation de la balise <img>-->								
+					<article class="ten">
+						<h1 id="tournoi">Tournois de Tennis</h1>
+						<p>Dans le cadre de mes études, j'ai dû coder différentes fonctions permettant d'enregistrer des tournois de Tennis!</p>
+						<img class="imgjava" src="images/tennisproj.png" href="..." height="50%" width="80%" ></img>
+					</article>	
+				</section>
+			</div>
+	</body>
+</html>

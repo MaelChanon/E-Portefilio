@@ -1,0 +1,36 @@
+/*entete*/
+#logo{
+	font-size:0.1em;
+}
+#nom h1{
+	padding-top:2%;
+}
+/*navbar*/
+#menu>ul{
+    border:solid 1px black;
+    padding: 5%;
+}
+li>ul{
+    padding:5%;
+}
+#menu>ul>li a{
+    display:block; 
+    background-color:gray;
+    margin-bottom:0.3em;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+nav{
+    position: fixed;
+	margin-right:5%;
+    text-align: center;
+}
+nav #menu{
+    width: 150%;
+    height: 150%;
+    background-color: #41433e;
+}	
+#menu>ul>li>ul li a{
+	background-color:#777973;
+}
